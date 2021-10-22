@@ -21,7 +21,7 @@ Contributing
 
 Contributions, issues, and features requests are welcome!
 
-Feel free to check the issues page https://github.com/imubarak234/hello-microverse-project/issues.
+Feel free to check the issues page https://github.com/imubarak234/Portfolio-mobile-version-skeleton/issues
 
 Show Your Support 
 
