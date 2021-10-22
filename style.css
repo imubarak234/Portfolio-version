@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #191765;
 }
 
 .wrap {
@@ -19,52 +19,72 @@ body {
   header p {
     float: left;
     padding-left: 2em;
-    font-family: Inter, sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 20px;
-    color: #28352f;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    color: #fff;
+    width: auto;
+    margin-left: -1.5em;
   }
 
-  main h1 {
-    font-family: Inter, sans-serif;
+  .name {
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 48px;
+    line-height: 60px;
     text-align: center;
+    letter-spacing: 0.37px;
+    color: #7d73fc;
   }
 
-  nav a {
-    float: right;
-    padding-right: 2em;
-    padding-top: 1em;
+  nav {
+    background-image: url(images/Icon\ -\ Menu.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    position: absolute;
+    right: 0;
+    margin-right: 1em;
   }
 
-  .green-title {
-    color: #4d7a65;
+  .titles {
+    position: relative;
+    top: -20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 38px;
+    line-height: 44px;
+    text-align: center;
+    color: #edecff;
   }
 
   .second-text {
-    font-family: Inter, sans-serif;
+    position: relative;
+    top: 10px;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 28px;
     text-align: center;
-    color: #000;
-    padding-right: 0.82em;
-    padding-left: 0.82em;
+    color: #c8c8d4;
   }
 
-  main img {
+  .circle {
+    background-image: url(images/Ellipse\ 18.svg);
+    background-color: #edecff;
+    background-size: cover;
     position: absolute;
     width: 160px;
     height: 160px;
-    background: #4d7a65;
     z-index: -7;
     filter: blur(40px);
     left: -25%;
+    top: 15%;
   }
 
   .line1 {
@@ -73,6 +93,6 @@ body {
     left: 10%;
     height: 10px;
     width: 80%;
-    border-bottom: 3px solid #4d7a65;
+    border-bottom: 3px solid #646369;
   }
 }
