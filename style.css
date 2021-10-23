@@ -80,8 +80,8 @@ header p,
 .project-title2,
 .wrapiv,
 .project-des2 li,
-.wrapv li
-,.project-title3,
+.wrapv li,
+.project-title3,
 .project-des3,
 .wrapvi li {
   font-style: normal;
@@ -264,7 +264,6 @@ nav {
   top: -1em;
 }
 
-
 .language li {
   color: #f5f5ff;
   font-size: 15px;
@@ -384,7 +383,7 @@ nav {
 .button1 {
   width: 89px;
   height: 48px;
-  background:#7d73fc;
+  background: #7d73fc;
   border: none;
   top: 1em;
   color: #edecff;
@@ -444,7 +443,7 @@ nav {
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
-}  
+}
 
 .wrapiv li {
   font-weight: 500;
