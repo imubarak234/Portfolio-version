@@ -1,7 +1,6 @@
-Portfolio: setup and mobile version skeleton
+Portfolio: mobile version
 
-The first step in my portfolio project. The code so far includes a simple layout of mobile front pages with simple
-text and a photo.
+A big step towards finishing my portfolio website. The code so far includes a simple layout of mobile version of my portfolio. This include a header, welcome note and completed projects. Some photos where displayed to give more life to the website. 
 
 Built with
 HTML 
