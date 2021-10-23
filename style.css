@@ -12,7 +12,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .wrap1 {
+  .wrapi {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@ body {
     top: -5em;
   }
 
-  .wrap2 {
+  .wrapii {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -33,7 +33,7 @@ body {
     padding-top: 2.5em;
   }
 
-  .wrap3 {
+  .wrapiii {
     height: 120%;
     display: flex;
     position: relative;
@@ -45,7 +45,7 @@ body {
     margin-top: -4.5em;
   }
 
-  .wrap4 {
+  .wrapiv {
     height: 120%;
     display: flex;
     position: relative;
@@ -57,7 +57,7 @@ body {
     top: -15em;
   }
 
-  .wrap5 {
+  .wrapv {
     height: 120%;
     display: flex;
     position: relative;
@@ -69,7 +69,7 @@ body {
     top: -6em;
   }
 
-  .wrap6 {
+  .wrapvi {
     height: 120%;
     display: flex;
     position: relative;
@@ -81,7 +81,7 @@ body {
     top: 3em;
   }
 
-  .wrap1 li {
+  .wrapi li {
     list-style: none;
   }
 
@@ -179,7 +179,6 @@ body {
     position: relative;
     top: 15em;
     right: 15em;
-
   }
 
   .skill li {
@@ -277,7 +276,7 @@ body {
     font-weight: 500;
     font-size: 25px;
     line-height: 32px;
-    color: #a2a3ae
+    color: #a2a3ae;
   }
 
   .recent {
@@ -301,10 +300,10 @@ body {
     border-bottom: 2px solid #646369;
   }
 
-  .wrap3 img {
+  .wrapiii img {
     width: 327px;
     height: 236px;
-  } 
+  }
 
   .project-title {
     font-family: Roboto, sans-serif;
@@ -325,7 +324,7 @@ body {
     color: #dcdce8;
   }
 
-  .wrap3 li {
+  .wrapiii li {
     list-style: none;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -345,7 +344,7 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrap3 button {
+  .wrapiii button {
     width: 89px;
     height: 48px;
     background: #7d73fc;
@@ -354,12 +353,12 @@ body {
     top: 1em;
   }
 
-  .wrap3 button:hover {
-    background: #7D73FC;
-    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  .wrapiii button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .wrap3 button:active {
+  .wrapiii button:active {
     background: #5e42d7;
   }
 
@@ -382,7 +381,7 @@ body {
     transform: rotate(-36.38deg);
   }
 
-  .wrap4 img {
+  .wrapiv img {
     width: 327px;
     height: 236px;
   }
@@ -406,7 +405,7 @@ body {
     color: #dcdce8;
   }
 
-  .wrap4 li {
+  .wrapiv li {
     list-style: none;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -426,7 +425,7 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrap4 button {
+  .wrapiv button {
     width: 89px;
     height: 48px;
     background: #7d73fc;
@@ -436,12 +435,12 @@ body {
     color: #edecff;
   }
 
-  .wrap4 button:hover {
-    background: #7D73FC;
-    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  .wrapiv button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .wrap4 button:active {
+  .wrapiv button:active {
     background: #5e42d7;
   }
 
@@ -459,7 +458,7 @@ body {
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   }
 
-  .wrap5 img {
+  .wrapv img {
     width: 327px;
     height: 236px;
   }
@@ -483,7 +482,7 @@ body {
     color: #dcdce8;
   }
 
-  .wrap5 li {
+  .wrapv li {
     list-style: none;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -503,7 +502,7 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrap5 button {
+  .wrapv button {
     width: 89px;
     height: 48px;
     background: #7d73fc;
@@ -513,12 +512,12 @@ body {
     color: #edecff;
   }
 
-  .wrap5 button:hover {
-    background: #7D73FC;
-    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  .wrapv button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .wrap5 button:active {
+  .wrapv button:active {
     background: #5e42d7;
   }
 
@@ -535,7 +534,7 @@ body {
     left: -43%;
   }
 
-  .wrap6 img {
+  .wrapvi img {
     width: 327px;
     height: 236px;
   }
@@ -559,7 +558,7 @@ body {
     color: #dcdce8;
   }
 
-  .wrap6 li {
+  .wrapvi li {
     list-style: none;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -579,7 +578,7 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrap6 button {
+  .wrapvi button {
     width: 89px;
     height: 48px;
     background: #7d73fc;
@@ -589,16 +588,16 @@ body {
     color: #edecff;
   }
 
-  .wrap6 button:hover {
-    background: #7D73FC;
-    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  .wrapvi button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
   }
 
-  .wrap6 button:active {
+  .wrapvi button:active {
     background: #5e42d7;
   }
 
-  .project-img3{
+  .project-img3 {
     background-image: url(images/Ellipse\ 22.svg);
     background-color: #edecff;
     background-size: cover;
