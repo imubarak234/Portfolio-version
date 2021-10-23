@@ -1,94 +1,102 @@
 body {
-  background-color: #191765;
+  background-color: white;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
-@media all and (max-width: 375px) {
-  .wrap {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+.flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.relate, .wrapiii li, .button4, .button3, .button2, .button1, .wrapiv li, .wrapv li, .wrapvi li {
+  position: relative;
+}
+
+header p, .name, .titles, .second-text, .skill li, .frame li, .language li, .work p, .recent, .project-title, .project-title1, .project-title2, .project-title3 {
+  font-family: Roboto, sans-serif;
+}
+
+.project-des, .wrapiii li, .project-des1, .wrapiv li, .project-des2, .wrapv li, .project-des3, .wrapvi li {
+  font-family: Inter, sans-serif;
+}
+
+.second-text, .name, .titles, .skill li, .language li, .frame li, .work p, .recent, .project-title, .project-des, .wrapiii li, .project-title1, .project-des1, .project-title2, .wrapiv, .project-des2 li, .wrapv li, .project-title3, .project-des3, .wrapvi li {
+  font-style: normal;
+}
+
+.second-text, .skill li, .frame li, .language li, .project-des, .project-des1, .project-des2, .project-des3 {
+  font-weight: normal;
+}
+
+nav, .circle, .project-img, .project-img1, .project-img2, .project-img3 {
+  background-size: cover;
+}
+
+nav, .circle, .project-img, .eclipse, .project-img1, .project-img2, .project-img3 {
+  position: absolute;
+}
+
+.grid-wrap {
+  width: 375px;
+  height: 5415px;
+  left: 35%;
+  margin-bottom: -550em;
+  padding-bottom: -1230%;
+  background-color: #191765;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
   .wrapi {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
     width: 100%;
-    top: -5em;
+    height: 70%;
+    top: -15em;
   }
 
   .wrapii {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    position: relative;
-    top: -15em;
+    bottom: 28em;
     align-items: center;
     justify-content: center;
-    height: 70%;
-    padding-top: 2.5em;
+    height: 50%;
   }
 
   .wrapiii {
-    height: 120%;
-    display: flex;
-    position: relative;
-    top: -23em;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%;
+    bottom: 42em;
     width: 91%;
     margin-left: 0.83em;
     margin-top: -4.5em;
   }
 
   .wrapiv {
-    height: 120%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%;
     width: 91%;
     margin-left: 0.83em;
     margin-top: -4.5em;
-    top: -15em;
+    bottom: 43em;
   }
 
   .wrapv {
-    height: 120%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%;
     width: 91%;
     margin-left: 0.83em;
     margin-top: -4.5em;
-    top: -6em;
+    bottom: 42em;
   }
 
   .wrapvi {
-    height: 120%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%;
     width: 91%;
     margin-left: 0.83em;
     margin-top: -4.5em;
-    top: 3em;
+    bottom: 40em;
   }
 
-  .wrapi li {
+  .wrapi li, .wrapiii li, .wrapiv li, .wrapv li, .wrapvi li {
     list-style: none;
-  }
-
-  .grid-wrap {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
   header {
@@ -98,7 +106,6 @@ body {
   header p {
     float: left;
     padding-left: 2em;
-    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
@@ -108,8 +115,6 @@ body {
   }
 
   .name {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
@@ -122,18 +127,13 @@ body {
     background-image: url(images/Icon\ -\ Menu.png);
     height: 50px;
     background-repeat: no-repeat;
-    background-size: cover;
     width: 60px;
-    position: absolute;
     right: 0;
     margin-right: 1em;
   }
 
   .titles {
-    position: relative;
     top: -20px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 520;
     font-size: 38px;
     line-height: 44px;
@@ -142,11 +142,7 @@ body {
   }
 
   .second-text {
-    position: relative;
     top: 10px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -156,19 +152,16 @@ body {
   .circle {
     background-image: url(images/Ellipse\ 18.svg);
     background-color: #edecff;
-    background-size: cover;
-    position: absolute;
     width: 160px;
     height: 160px;
-    z-index: -7;
+    z-index: 7;
     filter: blur(40px);
-    left: -25%;
-    top: 15%;
+    left: -28%;
+    top: 1.5%;
   }
 
   .line1 {
-    position: absolute;
-    top: 70%;
+    top: 4.5%;
     left: 7%;
     height: 10px;
     width: 87%;
@@ -176,47 +169,35 @@ body {
   }
 
   .skill {
-    position: relative;
     top: 15em;
-    right: 15em;
+    right: 8em;
   }
 
   .skill li {
     color: #f5f5ff;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 24px;
     padding-top: 17px;
   }
 
   .frame {
-    position: relative;
-    left: 5em;
-    top: -1em;
+    left: 11.5em;
+    top: -16em;
   }
 
   .frame li {
     color: #f5f5ff;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 24px;
     padding-top: 17px;
   }
 
   .language {
-    position: relative;
     top: -1em;
   }
 
   .language li {
     color: #f5f5ff;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 24px;
     padding-top: 17px;
@@ -241,16 +222,14 @@ body {
   }
 
   .line2 {
-    position: relative;
-    top: 9%;
-    left: 7%;
+    top: 47%;
+    right: 28%;
     height: 10px;
     width: 87%;
     border-bottom: 2px solid #646369;
   }
 
   .social-icons {
-    position: relative;
     top: -3.5em;
   }
 
@@ -271,8 +250,6 @@ body {
   }
 
   .work p {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 25px;
     line-height: 32px;
@@ -280,10 +257,8 @@ body {
   }
 
   .recent {
-    position: relative;
+    top: 2em;
     left: 0.7em;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 45px;
     line-height: 52px;
@@ -292,8 +267,7 @@ body {
   }
 
   .line3 {
-    position: relative;
-    top: -1%;
+    top: 33%;
     left: 1%;
     height: 10px;
     width: 87%;
@@ -306,8 +280,6 @@ body {
   }
 
   .project-title {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -316,18 +288,12 @@ body {
   }
 
   .project-des {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: #dcdce8;
   }
 
   .wrapiii li {
-    list-style: none;
-    font-family: Inter, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -335,7 +301,6 @@ body {
     float: left;
     padding: 15px;
     border-right: 1px solid #555;
-    position: relative;
     right: 2em;
     text-align: left;
   }
@@ -344,98 +309,44 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .button4 {
+  .button4, .button3, .button2, .button1{
     width: 89px;
     height: 48px;
     background: #7d73fc;
     border: none;
-    position: relative;
     top: 1em;
     color: #edecff;
   }
 
-  .button3 {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .button2 {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .button1 {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-  }
-
-  .button4:active {
+  .button4:active, .button3:active, .button2:active, .button1:active {
     background: #5e42d7;
+    color: #eaeaf6;
   }
 
-  .button4:hover {
+  .button4:hover, .button3:hover, .button2:hover, .button1:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
-  }
-
-  .button3:active {
-    background: #5e42d7;
-  }
-
-  .button3:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-
-  .button2:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-
-  .button2:active {
-    background: #5e42d7;
-  }
-
-  .button1:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-
-  .button1:active {
-    background: #5e42d7;
-  }
-
-  .disabled {
-    cursor: not-allowed;
-    background: #2a2b33;
-    color: #c8c8d4;
   }
 
   .project-img {
     background-image: url(images/Ellipse\ 19.svg);
     background-color: #edecff;
-    background-size: cover;
-    position: absolute;
     width: 39.61px;
     height: 482.47px;
-    z-index: -7;
+    z-index: 7;
     filter: blur(50px);
     top: 15%;
     transform: rotate(-36.38deg);
+  }
+
+  .eclipse {
+    width: 68px;
+    height: 68px;
+    z-index: 7;
+    background: #edecff;
+    filter: blur(50px);
+    top: 2em;
+    right: -3em;
   }
 
   .wrapiv img {
@@ -444,8 +355,6 @@ body {
   }
 
   .project-title1 {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -454,18 +363,12 @@ body {
   }
 
   .project-des1 {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: #dcdce8;
-  }
+  }  
 
   .wrapiv li {
-    list-style: none;
-    font-family: Inter, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -473,7 +376,6 @@ body {
     float: left;
     padding: 15px;
     border-right: 1px solid #555;
-    position: relative;
     right: 2em;
     text-align: left;
   }
@@ -485,11 +387,9 @@ body {
   .project-img1 {
     background-image: url(images/Ellipse\ 19.svg);
     background-color: #edecff;
-    background-size: cover;
-    position: absolute;
     width: 70.61px;
     height: 261.47px;
-    z-index: -7;
+    z-index: 7;
     filter: blur(50px);
     top: 20%;
     left: 80%;
@@ -502,8 +402,6 @@ body {
   }
 
   .project-title2 {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -512,18 +410,12 @@ body {
   }
 
   .project-des2 {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: #dcdce8;
   }
 
   .wrapv li {
-    list-style: none;
-    font-family: Inter, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -531,7 +423,6 @@ body {
     float: left;
     padding: 15px;
     border-right: 1px solid #555;
-    position: relative;
     right: 2em;
     text-align: left;
   }
@@ -543,11 +434,9 @@ body {
   .project-img2 {
     background-image: url(images/Ellipse\ 21.svg);
     background-color: rgba(237, 236, 255, 0.3);
-    background-size: cover;
-    position: absolute;
     width: 308.61px;
     height: 155px;
-    z-index: -7;
+    z-index: 7;
     filter: blur(50px);
     top: 30%;
     left: -43%;
@@ -559,8 +448,6 @@ body {
   }
 
   .project-title3 {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
@@ -569,18 +456,12 @@ body {
   }
 
   .project-des3 {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: #dcdce8;
   }
 
   .wrapvi li {
-    list-style: none;
-    font-family: Inter, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -588,7 +469,6 @@ body {
     float: left;
     padding: 15px;
     border-right: 1px solid #555;
-    position: relative;
     right: 2em;
     text-align: left;
   }
@@ -600,14 +480,11 @@ body {
   .project-img3 {
     background-image: url(images/Ellipse\ 22.svg);
     background-color: #edecff;
-    background-size: cover;
-    position: absolute;
     width: 101.29px;
     height: 377.04px;
-    z-index: -7;
+    z-index: 7;
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
     top: 20%;
     left: 108%;
   }
-}
