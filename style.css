@@ -344,78 +344,78 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrapvi button:active {
+  .button4 {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+    color: #edecff;
+  }
+
+  .button3 {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+    color: #edecff;
+  }
+
+  .button2 {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+    color: #edecff;
+  }
+
+  .button1 {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+  }
+
+  .button4:active {
     background: #5e42d7;
   }
 
-  .wrapvi button:hover {
+  .button4:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
   }
 
-  .wrapvi button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .wrapv button:active {
+  .button3:active {
     background: #5e42d7;
   }
 
-  .wrapv button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .wrapv button:hover {
+  .button3:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .wrapiv button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .wrapiv button:hover {
+  .button2:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .wrapiv button:active {
+  .button2:active {
     background: #5e42d7;
   }
 
-  .wrapiii button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-  }
-
-  .wrapiii button:hover {
+  .button1:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .wrapiii button:active {
+  .button1:active {
     background: #5e42d7;
   }
 
