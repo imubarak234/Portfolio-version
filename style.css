@@ -25,7 +25,17 @@ header p {
   flex-wrap: wrap;
 }
 
-.relate ,.wrapiii li ,.button4 ,.button3 ,.button2 ,.button1 ,.wrapiv li ,.wrapv li ,.wrapvi li { position: relative; }
+.relate,
+.wrapiii li,
+.button4,
+.button3,
+.button2,
+.button1,
+.wrapiv li,
+.wrapv li,
+.wrapvi li { 
+  position: relative; 
+}
 
 header p ,.name ,.titles ,.second-text ,.skill li ,.frame li ,.language li ,.work p , .recent , .project-title , .project-title1 , .project-title2 , .project-title3 { font-family: Roboto, sans-serif; }
 
