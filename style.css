@@ -33,21 +33,89 @@ header p {
 .button1,
 .wrapiv li,
 .wrapv li,
-.wrapvi li { 
-  position: relative; 
+.wrapvi li {
+  position: relative;
 }
 
-header p ,.name ,.titles ,.second-text ,.skill li ,.frame li ,.language li ,.work p , .recent , .project-title , .project-title1 , .project-title2 , .project-title3 { font-family: Roboto, sans-serif; }
+header p,
+.name,
+.titles,
+.second-text,
+.skill li,
+.frame li,
+.language li,
+.work p,
+.recent,
+.project-title,
+.project-title1,
+.project-title2,
+.project-title3 {
+  font-family: Roboto, sans-serif;
+}
 
-.project-des , .wrapiii li , .project-des1 , .wrapiv li , .project-des2 , .wrapv li , .project-des3 , .wrapvi li { font-family: Inter, sans-serif; }
+.project-des,
+.wrapiii li,
+.project-des1,
+.wrapiv li,
+.project-des2,
+.wrapv li,
+.project-des3,
+.wrapvi li {
+  font-family: Inter, sans-serif;
+}
 
-.second-text ,.name ,.titles ,.skill li ,.language li ,.frame li ,.work p ,.recent ,.project-title ,.project-des ,.wrapiii li ,.project-title1 ,.project-des1 ,.project-title2 ,.wrapiv ,.project-des2 li ,.wrapv li ,.project-title3 ,.project-des3 ,.wrapvi li { font-style: normal; }
+.second-text,
+.name,
+.titles,
+.skill li,
+.language li,
+.frame li,
+.work p,
+.recent,
+.project-title,
+.project-des,
+.wrapiii li,
+.project-title1,
+.project-des1,
+.project-title2,
+.wrapiv,
+.project-des2 li,
+.wrapv li
+,.project-title3,
+.project-des3,
+.wrapvi li {
+  font-style: normal;
+}
 
-.second-text ,.skill li ,.frame li ,.language li ,.project-des ,.project-des1 ,.project-des2 ,.project-des3 { font-weight: normal; }
+.second-text,
+.skill li,
+.frame li,
+.language li,
+.project-des,
+.project-des1,
+.project-des2,
+.project-des3 {
+  font-weight: normal;
+}
 
-nav ,.circle ,.project-img ,.project-img1 ,.project-img2 ,.project-img3 { background-size: cover; }
+nav,
+.circle,
+.project-img,
+.project-img1,
+.project-img2,
+.project-img3 {
+  background-size: cover;
+}
 
-nav ,.circle ,.project-img ,.eclipse ,.project-img1 ,.project-img2 ,.project-img3 { position: absolute; }
+nav,
+.circle,
+.project-img,
+.eclipse,
+.project-img1,
+.project-img2,
+.project-img3 {
+  position: absolute;
+}
 
 .grid-wrap {
   width: 375px;
@@ -106,10 +174,10 @@ nav ,.circle ,.project-img ,.eclipse ,.project-img1 ,.project-img2 ,.project-img
   bottom: 40em;
 }
 
-.wrapi li, 
-.wrapiii li, 
-.wrapiv li, 
-.wrapv li, 
+.wrapi li,
+.wrapiii li,
+.wrapiv li,
+.wrapv li,
 .wrapvi li {
   list-style: none;
 }
@@ -310,11 +378,33 @@ nav {
   border-right: 1px solid #191765;
 }
 
-.button4 ,.button3 ,.button2 , .button1 { width: 89px; height: 48px; background: #7d73fc; border: none; top: 1em; color: #edecff; }
+.button4,
+.button3,
+.button2,
+.button1 {
+  width: 89px;
+  height: 48px;
+  background:#7d73fc;
+  border: none;
+  top: 1em;
+  color: #edecff;
+}
 
-.button4:active ,.button3:active ,.button2:active ,.button1:active { background: #5e42d7; color: #eaeaf6; }
+.button4:active,
+.button3:active,
+.button2:active,
+.button1:active {
+  background: #5e42d7;
+  color: #eaeaf6;
+}
 
-.button4:hover ,.button3:hover ,.button2:hover ,.button1:hover { background: #7d73fc; box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48); }
+.button4:hover,
+.button3:hover,
+.button2:hover,
+.button1:hover {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
+}
 
 .project-img {
   background-image: url(images/Ellipse\ 19.svg);
