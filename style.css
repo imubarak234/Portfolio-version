@@ -344,6 +344,63 @@ body {
     border-right: 1px solid #191765;
   }
 
+  .wrapvi button:active {
+    background: #5e42d7;
+  }
+
+  .wrapvi button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
+  }
+
+  .wrapvi button {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+    color: #edecff;
+  }
+
+  .wrapv button:active {
+    background: #5e42d7;
+  }
+
+  .wrapv button {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+    color: #edecff;
+  }
+
+  .wrapv button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  .wrapiv button {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    border: none;
+    position: relative;
+    top: 1em;
+    color: #edecff;
+  }
+
+  .wrapiv button:hover {
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  .wrapiv button:active {
+    background: #5e42d7;
+  }
+
   .wrapiii button {
     width: 89px;
     height: 48px;
@@ -425,25 +482,6 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrapiv button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .wrapiv button:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-
-  .wrapiv button:active {
-    background: #5e42d7;
-  }
-
   .project-img1 {
     background-image: url(images/Ellipse\ 19.svg);
     background-color: #edecff;
@@ -502,25 +540,6 @@ body {
     border-right: 1px solid #191765;
   }
 
-  .wrapv button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .wrapv button:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-
-  .wrapv button:active {
-    background: #5e42d7;
-  }
-
   .project-img2 {
     background-image: url(images/Ellipse\ 21.svg);
     background-color: rgba(237, 236, 255, 0.3);
@@ -576,25 +595,6 @@ body {
 
   #list-last3 {
     border-right: 1px solid #191765;
-  }
-
-  .wrapvi button {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    border: none;
-    position: relative;
-    top: 1em;
-    color: #edecff;
-  }
-
-  .wrapvi button:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
-  }
-
-  .wrapvi button:active {
-    background: #5e42d7;
   }
 
   .project-img3 {
