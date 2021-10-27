@@ -395,7 +395,6 @@ nav {
   border: none;
   top: 1em;
   color: #edecff;
-  
 }
 
 .button4:active,
@@ -578,7 +577,7 @@ nav {
   left: 108%;
 }
 
-.wrap{
+.wrap {
   height: 100%;
 }
 
@@ -641,7 +640,6 @@ input,
   height: 105px;
   text-align: center;
 }
-
 
 .ending {
   top: 5em;
