@@ -1,6 +1,6 @@
 Portfolio: mobile version
 
-A big step towards finishing my portfolio website. The code so far includes a simple layout of mobile version of my portfolio. This include a header, welcome note and completed projects. Some photos where displayed to give more life to the website. 
+A big step towards finishing my portfolio website. The code so far includes a simple layout of the Desktop and mobile version of my portfolio. This include a header, welcome note and completed projects section and contact form. Some photos where displayed to give more life to the website. 
 
 Built with
 HTML 
