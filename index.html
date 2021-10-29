@@ -15,11 +15,16 @@
     <div class="wrap flex relate">
     <header>
       <p class="title1">John Doe</p>
-      <nav class="nav-img">
+      <nav class="relate">
+        <div class="nav-img relate"></div>
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#" class="relate"><img src="images/Icon-Mail.svg" alt="mail-icon"></a>
       </nav>
     </header>
   
-    <div>
+    <div class="flex relate landiing-text">
       <div class="circle"></div>
       <h2 class="name">Mubarak Ibrahim</h2>
       <p class="titles relate">Software developer<p>
@@ -61,6 +66,10 @@
   </div>
 
   <div class="wrapii flex relate">
+    <div class="work1 relate">
+      <img src="images/Group55.png" alt="arrow">
+      <p>work</p>
+    </div>
     <div class="social-icons relate">
     <img src="images/Vector.png" alt="Github">
     <img src="images/Group.png" alt="Linkedin">
@@ -78,8 +87,9 @@
   </div>
 
   <section class="wrapiii flex relate">
-    <img src="images/ImgPlaceholder.png" alt="Placeholder">
-    <h3 class="project-title">Multi-Post Stories</h3>
+    <img src="images/ImgPlaceholder.png" alt="Placeholder" class="relate">
+    <div class="relate project-sect">
+      <h3 class="project-title">Multi-Post Stories</h3>
     <div class="project-img"></div>
     <p class="project-des">A daily selection of privately personalized reads; no account
       or sign-ups required. Has been the industry's standard dummy text ever since the 1500s,
@@ -93,29 +103,32 @@
       <li id="list-last">Ruby</li>
     </ul>
     <button class="disabled button1" type="button">See project</button>
+    </div>
   </section>
 
   <div class="wrapiv flex relate">
-    <img src="images/ImgPlaceholder.png" alt="Placeholder">
-    <p class="project-title1">Multi-Post Stories</p>
-    <div class="project-img1"></div>
-    <p class="project-des1">A daily selection of privately personalized reads; no account
-      or sign-ups required. Has been the industry's standard dummy text ever since the 1500s,
-      when an inknown printer took a standard dummy text.
-    </p>
+    <img src="images/ImgPlaceholder.png" alt="Placeholder" class="relate">
+    <div class="relate project-sect1">
+      <p class="project-title1">Multi-Post Stories</p>
+      <div class="project-img1"></div>
+      <p class="project-des1">A daily selection of privately personalized reads; no account
+        or sign-ups required. Has been the industry's standard dummy text ever since the 1500s,
+        when an inknown printer took a standard dummy text.
+      </p>
 
-    <ul>
-      <li>css</li>
-      <li>html</li>
-      <li>bootstrap</li>
-      <li id="list-last1">Ruby</li>
-    </ul>
-    <button class="disabled button2" type="button">See project</button>
+      <ul>
+        <li>css</li>
+        <li>html</li>
+        <li>bootstrap</li>
+        <li id="list-last1">Ruby</li>
+      </ul>
+      <button class="disabled button2" type="button">See project</button>
   </div>
-
+    </div>
   <div class="wrapv flex relate">
-    <img src="images/ImgPlaceholder.png" alt="Placeholder">
-    <p class="project-title2">Multi-Post Stories</p>
+    <img src="images/ImgPlaceholder.png" alt="Placeholder" class="relate">
+    <div class="relate project-sect2">
+      <p class="project-title2">Multi-Post Stories</p>
     <div class="project-img2"></div>
     <p class="project-des2">A daily selection of privately personalized reads; no account
       or sign-ups required. Has been the industry's standard dummy text ever since the 1500s,
@@ -129,11 +142,13 @@
       <li id="list-last2">Ruby</li>
     </ul>
     <button class="disabled button3" type="button">See project</button>
+    </div>
   </div>
 
   <div class="wrapvi flex relate">
-    <img src="images/ImgPlaceholder.png" alt="Placeholder">
-    <p class="project-title3">Multi-Post Stories</p>
+    <img src="images/ImgPlaceholder.png" alt="Placeholder" class="relate">
+    <div class="relate project-sect3">
+      <p class="project-title3">Multi-Post Stories</p>
     <div class="project-img3"></div>
     <p class="project-des3">A daily selection of privately personalized reads; no account
       or sign-ups required. Has been the industry's standard dummy text ever since the 1500s,
@@ -147,36 +162,48 @@
       <li id="list-last3">Ruby</li>
     </ul>
     <button class="disabled button4" type="button">See project</button>
+    </div>
   </div>
 
   <footer class="contact relate flex">
-    <h2>CONTACT US</h2>
-    <p class="foot-text">If you have an application you are interested in developing, a feature that you need built 
-      or a project that needs coding. I'd love to help with it 
+    <h2 class="relate">CONTACT US</h2>
+    <h3 class="relate">Let's chat!</h3>
+    <p class="foot-text relate">If you have an application you are interested in developing, a feature that you need built 
+      or a project that needs coding. I'd love to help with it
     </p>
   
-    <form action="https://formspree.io/f/xleakkeo" method="post">
+    <form action="https://formspree.io/f/xleakkeo" method="post" class="relate">
+
+      <fieldset class="relate">
+        <input type="text" name="first-name" placeholder="First Name">
+        <input type="text" name="last-name" placeholder="Last Name">
+      </fieldset>
       <ul>
-        <li class="form-text">
-          <input type="text" name="text-input" placeholder="Text Input"
+        <li class="form-text side">
+          <input type="text" name="name" placeholder="Name"
+          aria-required="true" maxlength="30"
+          required>
+        </li>
+        <li class="form-text form-last side">
+          <input type="text" name="last-name" placeholder="Last Name"
           aria-required="true" maxlength="30"
           required>
         </li>
         <li class="form-text">
-            <input type="email" name="emails" placeholder="jeremy@gmail.com" aria-required="true"
+            <input type="email" name="emails" placeholder="Email Address" aria-required="true"
             required>
         </li>
         <li class="form-text1">
-            <textarea name="user_text" id="text-field" maxlength="500" placeholder="Enter text here"
+            <textarea name="user_text" id="text-field" maxlength="500" placeholder="Write your message here"
             required aria-required="true"></textarea>
         </li>
         <li class="foot-list">
-          <button class="foot-button" type="submit">Submit</button>
+          <button class="foot-button relate" type="submit">Send</button>
         </li>
       </ul>
     </form>
+    <div class="line-foot relate"></div>
     <div class="ending relate flex">
-      <div class="line-foot relate"></div>
       <div class="social-icons-2 relate">
         <img src="images/Vector.png" alt="Github">
         <img src="images/Group.png" alt="Linkedin">
@@ -185,7 +212,7 @@
         <img src="images/Icon-Medium.png" alt="Github">
       </div>
 
-    <p>emailhere@email.com</p>
+    <p class="relate">emailhere@email.com</p>
     </div>
   </footer>
 </div>
