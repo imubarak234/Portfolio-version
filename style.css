@@ -29,6 +29,10 @@ header p {
   width: 30%;
 }
 
+.wrap {
+  height: 100%;
+}
+
 .relate,
 .wrapiii li,
 .button4,
@@ -157,7 +161,6 @@ textarea,
   height: 48px;
   background: #7d73fc;
   border: none;
-  top: 1em;
   color: #edecff;
 }
 
@@ -248,7 +251,7 @@ a:last-child {
   flex-direction: row;
   justify-content: center;
   width: 80%;
-  height: 60%;
+  height: 100%;
   left: 10em;
 }
 
@@ -297,31 +300,32 @@ a:last-child {
 
 .wrapii {
   align-items: center;
-  height: 65%;
+  height: 90%;
   flex-direction: row;
   width: 100%;
-  left: 1%;
-  top: -42%;
+  top: -35%;
   break-inside: avoid;
 }
 
 .work {
   display: flex;
   flex-direction: row;
-  right: -57%;
+  left: 57%;
+  bottom: 18%;
 }
 
 .work1 {
   display: flex;
   flex-direction: row;
-  right: -10%;
+  left: 10%;
+  bottom: 18%;
 }
 
 .recent {
   font-size: 64px;
   line-height: 114px;
   color: #9390ff;
-  top: 85%;
+  top: 45%;
   right: 28%;
 }
 
@@ -346,6 +350,7 @@ a:last-child {
 
 .social-icons {
   left: 36%;
+  bottom: 18%;
 }
 
 .line2 {
@@ -356,7 +361,7 @@ a:last-child {
 }
 
 .line3 {
-  top: 60%;
+  top: 10%;
   right: -2%;
   height: 10px;
   width: 95%;
@@ -364,28 +369,60 @@ a:last-child {
 }
 
 .wrapiii {
-  height: 60%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   margin-left: 0.83em;
   bottom: 6em;
-  left: 9.6em;
+  left: 9%;
   flex-direction: row;
+}
+
+.wrapiv {
+  margin-left: 0.83em;
+  height: 100%;
+  width: 100%;
+  bottom: 4em;
+  left: 5%;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.wrapv {
+  height: 100%;
+  width: 100%;
+  margin-left: 0.83em;
+  flex-direction: row;
+  left: 9%;
+}
+
+.wrapvi {
+  height: 100%;
+  width: 100%;
+  margin-left: 0.83em;
+  flex-direction: row-reverse;
+  left: 9%;
+  justify-content: start;
+  top: 20%;
 }
 
 .wrapiii .project-sect,
 .wrapv .project-sect2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 35%;
-  height: 80%;
-  left: 5em;
-  bottom: 1.3em;
+  height: 100%;
+  left: 2.5%;
 }
 
 .wrapiv .project-sect1,
 .wrapvi .project-sect3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 35%;
-  height: 80%;
-  right: 5em;
-  bottom: 1.3em;
+  height: 100%;
+  margin-right: 3%;
 }
 
 .wrapiii img,
@@ -393,8 +430,7 @@ a:last-child {
 .wrapv img,
 .wrapvi img {
   width: 50%;
-  height: 140%;
-  bottom: 1.5em;
+  height: 100%;
 }
 
 .project-title,
@@ -431,33 +467,6 @@ a:last-child {
   text-align: left;
 }
 
-.wrapiv {
-  height: 60%;
-  width: 80%;
-  margin-left: 0.83em;
-  bottom: 4em;
-  left: 3.6em;
-  flex-direction: row-reverse;
-}
-
-.wrapv {
-  height: 60%;
-  width: 80%;
-  margin-left: 0.83em;
-  bottom: 3em;
-  flex-direction: row;
-  left: 7.6em;
-}
-
-.wrapvi {
-  height: 60%;
-  width: 80%;
-  margin-left: 0.83em;
-  bottom: 2em;
-  flex-direction: row-reverse;
-  left: 3.6em;
-}
-
 .contact {
   height: 120%;
   align-items: center;
@@ -473,6 +482,7 @@ a:last-child {
   font-size: 40px;
   line-height: 24px;
   color: #9390ff;
+  top: 15%;
 }
 
 .foot-text {
@@ -482,7 +492,7 @@ a:last-child {
   width: 50%;
   height: 20%;
   text-align: center;
-  bottom: 1em;
+  top: 15%;
 }
 
 input,
@@ -495,7 +505,7 @@ input,
 form {
   width: 50%;
   height: 50%;
-  bottom: 3em;
+  top: 10%;
 }
 
 .form-text1 textarea {
@@ -511,17 +521,15 @@ form {
 }
 
 fieldset input {
-  width: 44.5%;
-}
-
-fieldset input:first-child {
-  margin-right: 4%;
+  width: 48%;
 }
 
 fieldset {
-  width: 100%;
+  width: 90%;
   left: 0.7em;
   border: #191765;
+  display: flex;
+  justify-content: space-between;
 }
 
 .side {
@@ -599,7 +607,7 @@ fieldset {
   z-index: 7;
   filter: blur(50px);
   top: 20%;
-  left: 270%;
+  left: 248%;
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
 }
 
@@ -622,8 +630,8 @@ fieldset {
   z-index: 7;
   filter: blur(50px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
-  top: -135%;
-  left: 300%;
+  top: -77%;
+  left: 282%;
 }
 
 @media screen and (max-width: 470px) {
@@ -639,13 +647,14 @@ fieldset {
   }
 
   .social-icons-2 {
-    top: 0;
-    right: 0;
+    top: -4%;
+    right: -2%;
+    width: inherit;
   }
 
   header p {
     padding-left: 2em;
-    margin-left: -1.5em;
+    margin-left: -0.5em;
   }
 
   .ending p {
@@ -671,6 +680,7 @@ fieldset {
   .wrapvi .project-sect3 {
     width: auto;
     left: 0;
+    display: block;
   }
 
   .work1 {
@@ -744,7 +754,8 @@ fieldset {
     height: 100%;
     width: 91%;
     margin-left: 0.83em;
-    bottom: 13em;
+    display: block;
+    top: -28%;
     left: 0;
   }
 
@@ -807,7 +818,7 @@ fieldset {
 
   .line2 {
     top: 27%;
-    right: 49%;
+    right: 53%;
     height: 10px;
     width: 87%;
   }
@@ -818,7 +829,7 @@ fieldset {
 
   .social-icons {
     bottom: 0;
-    left: 2em;
+    left: 1em;
   }
 
   .work {
@@ -836,13 +847,14 @@ fieldset {
 
   .recent {
     top: 25%;
-    right: -0.8em;
+    right: -0.8%;
     font-weight: 500;
     font-size: 45px;
     line-height: 52px;
     align-items: center;
     color: #9490ff;
     display: block;
+    width: 70%;
   }
 
   .line3 {
@@ -878,8 +890,8 @@ fieldset {
   .project-img {
     width: 39.61px;
     height: 482.47px;
-    top: 15%;
-    right: 20%;
+    top: -21%;
+    right: 85%;
   }
 
   .eclipse {
@@ -967,7 +979,7 @@ fieldset {
   }
 
   .project-img2 {
-    top: 30%;
+    top: 5%;
     left: -43%;
   }
 
@@ -1004,7 +1016,7 @@ fieldset {
   .project-img3 {
     width: 101.29px;
     height: 377.04px;
-    top: 20%;
+    top: -19%;
     left: 108%;
   }
 
@@ -1067,7 +1079,7 @@ fieldset {
     line-height: 24px;
     width: 90%;
     height: 105px;
-    bottom: 5em;
+    top: -10%;
   }
 
   .ending {
@@ -1078,12 +1090,13 @@ fieldset {
   .line-foot {
     border-bottom: 2px solid #3a3837;
     bottom: 2em;
+    right: -6%;
   }
 
   form {
     width: 85%;
     height: 30%;
-    bottom: 5em;
+    top: -10%;
   }
 }
 
