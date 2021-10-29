@@ -1,6 +1,16 @@
 body {
   background-color: #191765;
   margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.grid-wrap {
+  height: 275em;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .flex,
@@ -11,17 +21,12 @@ body {
 }
 
 header p {
-  padding-left: 2em;
+  padding-left: 3em;
   font-weight: 500;
   font-size: 24px;
   line-height: 16px;
   color: #fff;
   width: 30%;
-}
-
-.foot-button {
-  top: 8em;
-  left: 21em;
 }
 
 .relate,
@@ -174,15 +179,7 @@ textarea,
   box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
 }
 
-.grid-wrap {
-  height: 90%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
 header {
-  width: 100%;
   display: flex;
   flex-direction: column;
   height: 10%;
@@ -199,10 +196,15 @@ nav a {
 }
 
 nav {
-  width: 44%;
   align-self: end;
   bottom: 3em;
-  left: 16em;
+  right: 5em;
+}
+
+.contact .foot-button {
+  left: 34%;
+  width: 160px;
+  height: 48px;
 }
 
 a:last-child {
@@ -244,9 +246,10 @@ a:last-child {
 
 .wrapi {
   flex-direction: row;
-  width: 43%;
-  height: 40%;
-  left: 30em;
+  justify-content: center;
+  width: 80%;
+  height: 60%;
+  left: 10em;
 }
 
 .skill li {
@@ -294,33 +297,32 @@ a:last-child {
 
 .wrapii {
   align-items: center;
-  justify-content: center;
   height: 65%;
-  margin-top: -67%;
   flex-direction: row;
-  width: 90%;
-  left: 3.5em;
-  top: 36em;
+  width: 100%;
+  left: 1%;
+  top: -42%;
+  break-inside: avoid;
 }
 
 .work {
   display: flex;
   flex-direction: row;
-  left: 40em;
+  right: -57%;
 }
 
 .work1 {
   display: flex;
   flex-direction: row;
-  right: 8em;
+  right: -10%;
 }
 
 .recent {
   font-size: 64px;
   line-height: 114px;
   color: #9390ff;
-  top: 5em;
-  right: 8em;
+  top: 85%;
+  right: 28%;
 }
 
 .work img,
@@ -343,19 +345,18 @@ a:last-child {
 }
 
 .social-icons {
-  left: 17em;
+  left: 36%;
 }
 
 .line2 {
   top: 13%;
-  right: 10%;
-  height: 10px;
-  width: 100%;
+  right: 1%;
+  width: 54%;
   border-bottom: 2px solid #646369;
 }
 
 .line3 {
-  top: 35%;
+  top: 60%;
   right: -2%;
   height: 10px;
   width: 95%;
@@ -366,8 +367,8 @@ a:last-child {
   height: 60%;
   width: 80%;
   margin-left: 0.83em;
-  bottom: 25em;
-  left: 3.6em;
+  bottom: 6em;
+  left: 9.6em;
   flex-direction: row;
 }
 
@@ -391,9 +392,9 @@ a:last-child {
 .wrapiv img,
 .wrapv img,
 .wrapvi img {
-  width: 55%;
-  height: 120%;
-  bottom: 5em;
+  width: 50%;
+  height: 140%;
+  bottom: 1.5em;
 }
 
 .project-title,
@@ -434,7 +435,7 @@ a:last-child {
   height: 60%;
   width: 80%;
   margin-left: 0.83em;
-  bottom: 26em;
+  bottom: 4em;
   left: 3.6em;
   flex-direction: row-reverse;
 }
@@ -443,23 +444,22 @@ a:last-child {
   height: 60%;
   width: 80%;
   margin-left: 0.83em;
-  bottom: 27.5em;
+  bottom: 3em;
   flex-direction: row;
-  left: 3.6em;
+  left: 7.6em;
 }
 
 .wrapvi {
   height: 60%;
   width: 80%;
   margin-left: 0.83em;
-  bottom: 27em;
+  bottom: 2em;
   flex-direction: row-reverse;
   left: 3.6em;
 }
 
 .contact {
-  height: 140%;
-  bottom: 10em;
+  height: 120%;
   align-items: center;
   justify-content: center;
 }
@@ -473,7 +473,6 @@ a:last-child {
   font-size: 40px;
   line-height: 24px;
   color: #9390ff;
-  bottom: 8em;
 }
 
 .foot-text {
@@ -483,7 +482,7 @@ a:last-child {
   width: 50%;
   height: 20%;
   text-align: center;
-  bottom: 16em;
+  bottom: 1em;
 }
 
 input,
@@ -496,7 +495,7 @@ input,
 form {
   width: 50%;
   height: 50%;
-  bottom: 9em;
+  bottom: 3em;
 }
 
 .form-text1 textarea {
@@ -512,8 +511,11 @@ form {
 }
 
 fieldset input {
-  width: 45%;
-  margin-right: 2.5em;
+  width: 44.5%;
+}
+
+fieldset input:first-child {
+  margin-right: 4%;
 }
 
 fieldset {
@@ -624,9 +626,16 @@ fieldset {
   left: 300%;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 470px) {
   body {
     height: 0;
+  }
+
+  .contact .foot-button {
+    top: 1em;
+    left: 0;
+    width: 89px;
+    height: 48px;
   }
 
   .social-icons-2 {
@@ -640,11 +649,6 @@ fieldset {
   }
 
   .ending p {
-    left: 0;
-  }
-
-  .foot-button {
-    top: 0;
     left: 0;
   }
 
@@ -684,7 +688,7 @@ fieldset {
     background-repeat: no-repeat;
     width: 60px;
     top: -1.4em;
-    left: -10em;
+    left: -13%;
   }
 
   nav a {
@@ -787,7 +791,7 @@ fieldset {
   }
 
   .skill {
-    top: 15em;
+    top: 8.5em;
     right: 14em;
     padding-right: 0;
   }
@@ -802,8 +806,8 @@ fieldset {
   }
 
   .line2 {
-    top: 47%;
-    right: 55%;
+    top: 27%;
+    right: 49%;
     height: 10px;
     width: 87%;
   }
@@ -831,7 +835,7 @@ fieldset {
   }
 
   .recent {
-    top: 1em;
+    top: 25%;
     right: -0.8em;
     font-weight: 500;
     font-size: 45px;
@@ -1007,6 +1011,7 @@ fieldset {
   .wrapi ul {
     width: 50%;
     padding-right: 0;
+    bottom: 25%;
   }
 
   .contact {
@@ -1066,7 +1071,7 @@ fieldset {
   }
 
   .ending {
-    top: 5em;
+    top: 7em;
     width: 100%;
   }
 
@@ -1079,5 +1084,15 @@ fieldset {
     width: 85%;
     height: 30%;
     bottom: 5em;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .wrapii {
+    width: 105%;
+  }
+
+  .work {
+    right: -50%;
   }
 }
