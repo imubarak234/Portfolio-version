@@ -30,10 +30,6 @@ header p {
   transition: transform 3s;
 }
 
-header p:hover {
-  transform: rotate(-60deg);
-}
-
 .wrap {
   height: 100%;
 }
@@ -187,6 +183,14 @@ textarea,
   box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
 }
 
+.ending p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  left: 2em;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -326,6 +330,10 @@ a:last-child {
   bottom: 18%;
 }
 
+.social-icons-2 img {
+  padding-right: 0.9em;
+}
+
 .recent {
   font-size: 64px;
   line-height: 114px;
@@ -356,6 +364,10 @@ a:last-child {
 .social-icons {
   left: 36%;
   bottom: 18%;
+}
+
+header p:hover {
+  transform: rotate(-60deg);
 }
 
 .line2 {
@@ -576,21 +588,9 @@ fieldset {
   top: 4em;
 }
 
-.social-icons-2 img {
-  padding-right: 0.9em;
-}
-
 .social-icons-2 {
   top: 1.5em;
   right: 1em;
-}
-
-.ending p {
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  left: 2em;
 }
 
 .circle {
