@@ -231,6 +231,19 @@ a:last-child {
   font-size: 90px;
   line-height: 105px;
   color: #9391ff;
+  animation-name: fadeInOut;
+  animation-duration: 4s;
+  animation-iteration-count: 5;
+}
+
+@keyframes fadeInOut {
+  from {
+    color: #9391ff;
+  }
+
+  to {
+    color: blue;
+  }
 }
 
 .titles {
