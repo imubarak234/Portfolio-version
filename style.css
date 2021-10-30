@@ -27,6 +27,11 @@ header p {
   line-height: 16px;
   color: #fff;
   width: 30%;
+  transition: transform 3s;
+}
+
+header p:hover {
+  transform: rotate(-60deg);
 }
 
 .wrap {
@@ -431,6 +436,15 @@ a:last-child {
 .wrapvi img {
   width: 50%;
   height: 100%;
+  transition: width 2s;
+  transition-delay: 1s;
+}
+
+.wrapiii img:hover,
+.wrapiv img:hover,
+.wrapv img:hover,
+.wrapvi img:hover {
+  width: 60%;
 }
 
 .project-title,
@@ -493,6 +507,19 @@ a:last-child {
   height: 20%;
   text-align: center;
   top: 15%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 10%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
 }
 
 input,
