@@ -27,6 +27,7 @@ header p {
   line-height: 16px;
   color: #fff;
   width: 30%;
+  transition: transform 3s;
 }
 
 .wrap {
@@ -182,6 +183,14 @@ textarea,
   box-shadow: 0 8px 16px  rgba(125, 115, 252, 0.48);
 }
 
+.ending p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  left: 2em;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -222,6 +231,19 @@ a:last-child {
   font-size: 90px;
   line-height: 105px;
   color: #9391ff;
+  animation-name: fadeInOut;
+  animation-duration: 4s;
+  animation-iteration-count: 5;
+}
+
+@keyframes fadeInOut {
+  from {
+    color: #9391ff;
+  }
+
+  to {
+    color: blue;
+  }
 }
 
 .titles {
@@ -321,6 +343,10 @@ a:last-child {
   bottom: 18%;
 }
 
+.social-icons-2 img {
+  padding-right: 0.9em;
+}
+
 .recent {
   font-size: 64px;
   line-height: 114px;
@@ -351,6 +377,10 @@ a:last-child {
 .social-icons {
   left: 36%;
   bottom: 18%;
+}
+
+header p:hover {
+  transform: rotate(-60deg);
 }
 
 .line2 {
@@ -431,6 +461,15 @@ a:last-child {
 .wrapvi img {
   width: 50%;
   height: 100%;
+  transition: width 2s;
+  transition-delay: 1s;
+}
+
+.wrapiii img:hover,
+.wrapiv img:hover,
+.wrapv img:hover,
+.wrapvi img:hover {
+  width: 60%;
 }
 
 .project-title,
@@ -493,6 +532,19 @@ a:last-child {
   height: 20%;
   text-align: center;
   top: 15%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 10%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
 }
 
 input,
@@ -549,21 +601,9 @@ fieldset {
   top: 4em;
 }
 
-.social-icons-2 img {
-  padding-right: 0.9em;
-}
-
 .social-icons-2 {
   top: 1.5em;
   right: 1em;
-}
-
-.ending p {
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  left: 2em;
 }
 
 .circle {
