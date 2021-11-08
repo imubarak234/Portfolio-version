@@ -2,10 +2,11 @@ body {
   background-color: #191765;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 .grid-wrap {
+  border: 2px solid black;
+  overflow-x: hidden;
   height: 275em;
   max-width: 100%;
   display: grid;
@@ -706,7 +707,7 @@ fieldset {
   }
 
   .grid-wrap {
-    width: 375px;
+    max-width: 100%;
     height: 5415px;
   }
 
