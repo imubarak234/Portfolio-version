@@ -18,8 +18,8 @@ function mobileMenuItems() {
 
 icons.addEventListener('click', mobileMenuItems);
 
-menuitems.forEach(
+menuitems.forEach (
   (menuItem) => {
     menuItem.addEventListener('click', mobileMenuItems);
-  }
-);
+  },
+)
