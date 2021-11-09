@@ -17,8 +17,9 @@ function mobileMenuItems() {
 }
 
 icons.addEventListener('click', mobileMenuItems);
+
 menuitems.forEach(
-  function(menuItem) {
+  (menuItem) => {
     menuItem.addEventListener('click', mobileMenuItems);
   }
-)
+);

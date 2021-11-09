@@ -1139,7 +1139,7 @@ fieldset {
 
   .nav-icons {
     position: absolute;
-    z-index: 9;
+    z-index: 39;
     top: 3%;
     left: 75%;
     cursor: pointer;
