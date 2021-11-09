@@ -1,5 +1,5 @@
 const nav = document.querySelector('nav');
-//const menuitems = document.querySelectorAll('nav a');
+// const menuitems = document.querySelectorAll('nav a');
 const icons = document.querySelector('.nav-icons');
 const close = document.querySelector('.nav-img-cancel');
 const open = document.querySelector('.nav-img');
@@ -16,4 +16,4 @@ function mobileMenuItems() {
   }
 }
 
-icons.addEventListener("click", mobileMenuItems);
+icons.addEventListener('click', mobileMenuItems);
