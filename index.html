@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-211667488-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-211667488-1');
-</script>
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,25 +8,30 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  
 </head>
 <body>
-  
   <div class="grid-wrap">
     <div class="wrap flex relate">
     <header>
       <p class="title1">John Doe</p>
-      <nav class="relate">
-        <div class="nav-img relate"></div>
-        <a href="#">Portfolio</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#" class="relate"><img src="images/Icon-Mail.svg" alt="mail-icon"></a>
+      <nav>
+        <a href="#home" class="nav-link">Portfolio<img class="nav-mobile relate" src="images/Icon - Chevron - Right - Larger.svg" alt="right-arrow"></a>
+        <a href="#about" class="nav-link">About <img class="nav-mobile nav1 relate" src="images/Icon - Chevron - Right - Larger.svg" alt="right-arrow"></a>
+        <a href="#contact" class="nav-link">Contact <img class="nav-mobile nav2 relate" src="images/Icon - Chevron - Right - Larger.svg" alt="right-arrow"></a>
+        <a href="#" class="relate nav-desktop"><img src="images/Icon-Mail.svg" alt="mail-icon"></a>
+        <img class="back-img1" src="images/shape mobile menu-2.svg" alt="background-image"> 
+        <img class="back-img2" src="images/shape mobile menu-1.svg" alt="background-image">
       </nav>
+      <button class="nav-icons">
+        <div class="nav-img relate"></div>
+        <div class="nav-img-cancel relate"></div>
+      </button>
     </header>
   
     <div class="flex relate landiing-text">
       <div class="circle"></div>
-      <h2 class="name">Mubarak Ibrahim</h2>
+      <h2 class="name" id="home">Mubarak Ibrahim</h2>
       <p class="titles relate">Software developer<p>
         <p class="second-text relate">I can capable of helping you build your product, feature or website please look through some
           of my work and experience! if you like what you see and have a project you need coded, don't hestiate to contact me.
@@ -96,7 +91,7 @@
     <div class="line3 relate"></div>
   </div>
 
-  <section class="wrapiii flex relate">
+  <section class="wrapiii flex relate" id="about">
     <img src="images/ImgPlaceholder.png" alt="Placeholder" class="relate">
     <div class="relate project-sect">
       <h3 class="project-title">Multi-Post Stories</h3>
@@ -175,7 +170,7 @@
     </div>
   </div>
 
-  <footer class="contact relate flex">
+  <footer class="contact relate flex" id="contact">
     <h2 class="relate">CONTACT US</h2>
     <h3 class="relate">Let's chat!</h3>
     <p class="foot-text relate">If you have an application you are interested in developing, a feature that you need built 
@@ -226,5 +221,6 @@
     </div>
   </footer>
 </div>
+<script src="menu.js"></script>
 </body>
 </html>
