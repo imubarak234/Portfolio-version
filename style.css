@@ -1181,7 +1181,6 @@ fieldset {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 8;
     background: #191765;
     height: 100%;
     color: white;
@@ -1214,13 +1213,13 @@ fieldset {
 
   .nav1 {
     left: 64%;
-  } 
+  }
 
   .nav2 {
     left: 58%;
   }
 
-  .back-img1{
+  .back-img1 {
     width: 226px;
     height: 427px;
     right: 69%;
@@ -1242,7 +1241,6 @@ fieldset {
     transform: rotate(40.52deg);
     border-radius: 50%;
   }
-
 }
 
 @media screen and (max-width: 970px) {
