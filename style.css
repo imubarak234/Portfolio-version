@@ -14,8 +14,17 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.back-img2 {
+  display: none;
+}
+
+.back-img1 {
+  display: none;
+}
+
 .flex,
-.contact ul {
+.contact ul,
+.popup {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -72,7 +81,9 @@ header p,
 .ending p,
 nav a,
 h3,
+.head-popup h2,
 .contact h3,
+.maintext,
 .project-title3 {
   font-family: Roboto, sans-serif;
 }
@@ -115,6 +126,9 @@ textarea,
 textarea,
 nav a,
 .contact h3,
+.head-popup h2,
+.popup li,
+.maintext,
 .wrapvi li {
   font-style: normal;
 }
@@ -130,6 +144,7 @@ nav a,
 .foot-text,
 .ending p,
 textarea,
+.maintext,
 .project-des3 {
   font-weight: normal;
 }
@@ -139,6 +154,7 @@ textarea,
 .project-img,
 .project-img1,
 .project-img2,
+.pop-img,
 .project-img3 {
   background-size: cover;
 }
@@ -160,6 +176,7 @@ textarea,
 .wrapiv li,
 .wrapv li,
 .contact li,
+.popup li,
 .wrapvi li {
   list-style: none;
 }
@@ -179,6 +196,8 @@ textarea,
 .button4:active,
 .button3:active,
 .button2:active,
+.pop-button:active,
+.pop-button1:active,
 .foot-button:active,
 .button1:active {
   background: #5e42d7;
@@ -188,6 +207,8 @@ textarea,
 .button4:hover,
 .button3:hover,
 .foot-button:hover,
+.pop-button:hover,
+.pop-button1:hover,
 .button2:hover,
 .button1:hover {
   background: #7d73fc;
@@ -687,10 +708,6 @@ fieldset {
 }
 
 @media screen and (max-width: 470px) {
-  body {
-    height: 0;
-  }
-
   .contact .foot-button {
     top: 1em;
     left: 0;
@@ -1229,6 +1246,7 @@ fieldset {
     transform: rotate(23deg);
     border-radius: 50%;
     z-index: -10;
+    display: block;
   }
 
   .back-img2 {
@@ -1240,6 +1258,7 @@ fieldset {
     filter: blur(40px);
     transform: rotate(40.52deg);
     border-radius: 50%;
+    display: block;
   }
 }
 

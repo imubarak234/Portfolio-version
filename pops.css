@@ -1,0 +1,147 @@
+.contain {
+  box-sizing: border-box;
+  padding: 5%;
+  height: 120vh;
+  width: 100%;
+  z-index: 40;
+  transform: translateY(0);
+  transition: transform 0.2s;
+}
+
+.popup {
+  background: rgba(255, 255, 255, 0.16);
+  padding: 5%;
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  justify-content: center;
+  align-items: center;
+}
+
+.headImg {
+  z-index: 10;
+}
+
+.headButton {
+  background: rgba(255, 255, 255, -0.16);
+  border: rgba(255, 255, 255, 0.16);
+}
+
+.head-popup {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.head-popup h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.pop-img {
+  width: 52em;
+  height: 24em;
+  background-image: url(images/SnapshootPortfolio1.png);
+}
+
+.maintext {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  width: 65%;
+}
+
+.popup li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  border-right: 2px solid #81818c;
+  border-left: 2px solid #81818c;
+  height: 0.65em;
+  padding: 5%;
+}
+
+.popup ul {
+  display: flex;
+  width: 66%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+.popup li:nth-child(2) {
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.pop-button,
+.pop-button1 {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  border: none;
+  color: #edecff;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 12%;
+}
+
+.pop-button1 {
+  width: 124px;
+}
+
+.pop-button {
+  width: 108px;
+}
+
+.divbutton {
+  margin-top: 2%;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.test {
+  display: block;
+}
+
+@media screen and (max-width: 470px) {
+  .popup ul {
+    justify-content: start;
+  }
+
+  .divbutton {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup li {
+    height: 30%;
+  }
+
+  .head-popup h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .pop-img {
+    width: 279px;
+    height: 181px;
+    background-image: url(images/SnapshootPortfolio.png);
+  }
+
+  .maintext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .test {
+    display: none;
+  }
+}
