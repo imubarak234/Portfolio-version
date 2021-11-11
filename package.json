@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-mobile-version-skeleton",
+  "version": "1.0.0",
+  "description": "A big step towards finishing my portfolio website. The code so far includes a simple layout of the Desktop and mobile version of my portfolio. This include a header, welcome note and completed projects section and contact form. Some photos where displayed to give more life to the website.",
+  "main": "menu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imubarak234/Portfolio-mobile-version-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imubarak234/Portfolio-mobile-version-skeleton/issues"
+  },
+  "homepage": "https://github.com/imubarak234/Portfolio-mobile-version-skeleton#readme",
+  "devDependencies": {
+    "hint": "^6.1.8"
+  }
+}
