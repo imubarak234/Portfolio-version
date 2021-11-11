@@ -707,7 +707,7 @@ fieldset {
   left: 282%;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
   .contact .foot-button {
     top: 1em;
     left: 0;

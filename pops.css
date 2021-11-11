@@ -51,7 +51,7 @@
   line-height: 30px;
   text-align: center;
   color: #fff;
-  width: 65%;
+  width: 77%;
 }
 
 .popup li {
@@ -110,7 +110,7 @@
   display: block;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
   .popup ul {
     justify-content: start;
   }
