@@ -6,7 +6,6 @@ body {
 }
 
 .grid-wrap {
-  overflow-x: hidden;
   height: 275em;
   max-width: 100%;
   display: grid;
@@ -233,6 +232,18 @@ header {
   display: none;
 }
 
+input.error,
+textarea.error,
+select.error {
+  border-color: red;
+}
+
+form small {
+  color: red;
+  font-size: 1em;
+  margin-bottom: 3%;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
@@ -315,6 +326,8 @@ a:last-child {
   font-size: 15px;
   line-height: 24px;
   padding-top: 17px;
+  position: relative;
+  right: -1%;
 }
 
 .wrapi ul {
@@ -326,6 +339,8 @@ a:last-child {
   font-size: 15px;
   line-height: 24px;
   padding-top: 17px;
+  left: 31%;
+  position: relative;
 }
 
 .language li {
@@ -333,6 +348,8 @@ a:last-child {
   font-size: 15px;
   line-height: 24px;
   padding-top: 17px;
+  right: 19%;
+  position: relative;
 }
 
 #lan-title {
@@ -434,18 +451,14 @@ header p:hover {
 .wrapiii {
   height: 100%;
   width: 100%;
-  margin-left: 0.83em;
   bottom: 6em;
-  left: 9%;
   flex-direction: row;
 }
 
 .wrapiv {
-  margin-left: 0.83em;
   height: 100%;
   width: 100%;
   bottom: 4em;
-  left: 5%;
   flex-direction: row-reverse;
   justify-content: start;
 }
@@ -453,17 +466,13 @@ header p:hover {
 .wrapv {
   height: 100%;
   width: 100%;
-  margin-left: 0.83em;
   flex-direction: row;
-  left: 9%;
 }
 
 .wrapvi {
   height: 100%;
   width: 100%;
-  margin-left: 0.83em;
   flex-direction: row-reverse;
-  left: 9%;
   justify-content: start;
   top: 20%;
 }
@@ -651,13 +660,13 @@ fieldset {
 }
 
 .eclipse {
-  width: 226px;
+  width: 168px;
   height: 226px;
   z-index: 7;
   background: #edecff;
   filter: blur(50px);
   top: -7em;
-  right: -12em;
+  right: -1em;
 }
 
 .project-img {
@@ -676,11 +685,11 @@ fieldset {
   background-image: url(images/Ellipse\ 19.svg);
   background-color: #edecff;
   width: 108px;
-  height: 402px;
+  height: 327px;
   z-index: 7;
   filter: blur(50px);
-  top: 20%;
-  left: 248%;
+  top: 54%;
+  left: 218%;
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
 }
 
@@ -699,12 +708,13 @@ fieldset {
   background-image: url(images/Ellipse\ 22.svg);
   background-color: #edecff;
   width: 246.19px;
-  height: 916.04px;
+  height: 270.04px;
   z-index: 7;
   filter: blur(50px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
-  top: -77%;
-  left: 282%;
+  top: -20%;
+  left: 182%;
+  border-radius: 40%;
 }
 
 @media screen and (max-width: 500px) {
@@ -857,18 +867,19 @@ fieldset {
   }
 
   .skill {
-    top: 6.5em;
+    top: 6em;
     right: 15em;
     padding-right: 0;
   }
 
   .frame {
-    left: 12.5em;
-    top: -22em;
+    left: 9.5em;
+    top: -22.5em;
   }
 
   .language {
-    top: -7em;
+    top: -7.5em;
+    left: 11%;
   }
 
   .line2 {
@@ -883,15 +894,15 @@ fieldset {
   }
 
   .social-icons {
-    bottom: 0;
-    left: 1em;
+    bottom: -10%;
+    left: -2%;
   }
 
   .work {
     display: flex;
     flex-direction: row;
     bottom: -10%;
-    left: 1em;
+    left: -5%;
   }
 
   .work img {
@@ -901,8 +912,8 @@ fieldset {
   }
 
   .recent {
-    top: 25%;
-    right: -0.8%;
+    top: 39%;
+    right: 9.2%;
     font-weight: 500;
     font-size: 45px;
     line-height: 52px;
@@ -953,7 +964,7 @@ fieldset {
     width: 68px;
     height: 68px;
     top: 2em;
-    right: -3em;
+    right: 2em;
   }
 
   .wrapiv img,
@@ -1000,7 +1011,7 @@ fieldset {
     height: 261.47px;
     z-index: 7;
     top: 20%;
-    left: 80%;
+    left: 69%;
   }
 
   .project-title2 {
@@ -1072,7 +1083,7 @@ fieldset {
     width: 101.29px;
     height: 377.04px;
     top: -19%;
-    left: 108%;
+    left: 35%;
   }
 
   .wrapi ul {
@@ -1093,7 +1104,7 @@ fieldset {
   }
 
   .contact li {
-    margin-bottom: 7%;
+    margin-bottom: 11%;
     width: 100%;
   }
 
@@ -1114,6 +1125,7 @@ fieldset {
     width: 99%;
     height: 40px;
     margin-left: 0;
+    display: block;
   }
 
   .contact h2 {
@@ -1145,7 +1157,6 @@ fieldset {
   .line-foot {
     border-bottom: 2px solid #3a3837;
     bottom: 2em;
-    right: -6%;
   }
 
   form {
@@ -1264,7 +1275,7 @@ fieldset {
 
 @media screen and (max-width: 970px) {
   .wrapii {
-    width: 105%;
+    width: 100%;
   }
 
   .work {
