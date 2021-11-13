@@ -50,3 +50,49 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const firstname = document.getElementById('first-name');
+const lastname = document.getElementById('last-name');
+const names = document.getElementById('names');
+const emails = document.getElementById('emails');
+const testfield = document.getElementById('text-field');
+
+function setForm() {
+  const restoring = JSON.parse(localStorage.getItem('instance'));
+
+  document.getElementById('first-name').value = restoring.figures[0].firstname;
+  document.getElementById('last-name').value = restoring.figures[0].lastname;
+  document.getElementById('names').value = restoring.figures[0].name;
+  document.getElementById('emails').value = restoring.figures[0].email;
+  document.getElementById('text-field').value = restoring.figures[0].text;
+}
+
+function populate() {
+  const instances = {
+    figures: [],
+  };
+
+  instances.figures.push({
+    firstname: document.getElementById('first-name').value,
+    lastname: document.getElementById('last-name').value,
+    name: document.getElementById('names').value,
+    email: document.getElementById('emails').value,
+    text: document.getElementById('text-field').value,
+  });
+
+  localStorage.setItem('instance', JSON.stringify(instances));
+
+  setForm();
+}
+
+if (!localStorage.getItem('instance')) {
+  populate();
+} else {
+  setForm();
+}
+
+firstname.onchange = populate;
+lastname.onchange = populate;
+names.onchange = populate;
+emails.onchange = populate;
+testfield.onchange = populate;
